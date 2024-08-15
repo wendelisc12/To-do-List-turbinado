@@ -7,6 +7,10 @@ const Global = createGlobalStyle`
         box-sizing: border-box;
         font-family: "Josefin Sans", sans-serif;
     }
+
+    body{
+        background-color: ${(props)=> props.theme.backgroundPrincipal};
+    }
 `
 
 export default Global
